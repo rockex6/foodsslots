@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/_25dp"
+    android:background="@drawable/bg_corner_radius_5"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/vTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_30dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color333333"
+        android:textSize="@dimen/_16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/vMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vTitle"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color333333"
+        android:textSize="@dimen/_14dp" />
+
+    <TextView
+        android:id="@+id/vDeleteItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vMessage"
+        android:gravity="center"
+        android:textColor="@color/colorFF0000"
+        android:textSize="@dimen/_18dp" />
+
+    <EditText
+        android:id="@+id/vName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vMessage"
+        android:hint="請輸入名稱"
+        android:textColor="@color/color333333"
+        android:textSize="@dimen/_14dp" />
+
+    <View
+        android:id="@+id/divide1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/vDeleteItem"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@color/color9d9d9d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:layout_below="@+id/divide1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/cancel_label"
+            android:textColor="@color/color6ea1ff"
+            android:textSize="@dimen/_16dp"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/divide"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color9d9d9d" />
+
+        <TextView
+            android:id="@+id/vSubmit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/ok_label"
+            android:textColor="@color/color6ea1ff"
+            android:textSize="@dimen/_16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

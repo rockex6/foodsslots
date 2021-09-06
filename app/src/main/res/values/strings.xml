@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodsSlots</string>
+
+    <string name="cancel_label">取消</string>
+    <string name="ok_label">確定</string>
+
+    <string name="notice">注意！</string>
+    <string name="confirm_delete">確定刪除？</string>
+</resources>

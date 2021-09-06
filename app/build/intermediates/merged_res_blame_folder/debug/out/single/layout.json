@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/tyy/android/foodsslots/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_slots_text.xml",
+        "source": "/Users/tyy/android/foodsslots/app/src/main/res/layout/item_slots_text.xml"
+    },
+    {
+        "merged": "/Users/tyy/android/foodsslots/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_content_view.xml",
+        "source": "/Users/tyy/android/foodsslots/app/src/main/res/layout/dialog_content_view.xml"
+    },
+    {
+        "merged": "/Users/tyy/android/foodsslots/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/tyy/android/foodsslots/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tyy/android/foodsslots/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_list_name.xml",
+        "source": "/Users/tyy/android/foodsslots/app/src/main/res/layout/item_list_name.xml"
+    }
+]
